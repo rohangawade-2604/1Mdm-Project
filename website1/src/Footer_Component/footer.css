@@ -1,0 +1,19 @@
+.fotte-part{
+    background-color: black;
+    width: 100%;
+    height: 70vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    padding-inline: 100px;
+    padding-top: 80px;
+}
+
+.heading{
+    font-style:bold;
+    font-size: 20px;
+    margin-bottom: 20px;   
+}
+

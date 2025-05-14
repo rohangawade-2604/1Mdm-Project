@@ -1,0 +1,19 @@
+.Equipment-part{
+    margin-inline: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Front-Page{
+    background-image: url("https://1mdm.com/about/assets/seller-banner.png");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Business{
+    background-image: url("https://1mdm.com/about/assets/footer-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
