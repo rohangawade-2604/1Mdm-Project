@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Copyright.css"
+
 export const Copyright = () => {
   return (
     <>
