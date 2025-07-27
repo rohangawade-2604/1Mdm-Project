@@ -4,6 +4,16 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 600px) {
+    .Equipment-part{
+        margin-inline: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10px;
+        
+    }
+}
 .Front-Page{
     background-image: url("https://1mdm.com/about/assets/seller-banner.png");
     height: 70vh;

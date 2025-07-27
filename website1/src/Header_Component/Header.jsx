@@ -5,7 +5,7 @@ import LogoPart from "../assets/Logo.png"
 const Header = () => {
     return (
         <>
-            <section className='flex justify-between mx-25 mt-3'>
+            <section className='flex justify-between mx-25 mt-3 max-sm:mx-0'>
             <img src={LogoPart} alt="" className='' />
                 <nav className='mt-4 list-none'>
                     <li className=''>

@@ -34,21 +34,21 @@ const Home = () => {
 
   return (
     <>
-      <div className="HomePage">
+      <div className="HomePage max-sm:px-0">
 
-        <div className="Equipment-part mb-3 mt-3">
-          <div className="first">
-            <h1>World's Largest Medical Equipment Market Place</h1>
+        <div className="Equipment-part mb-3 mt-3  ">
+          <div className="first max-sm:mx-0">
+            <h1 className='max-sm:text-[18px]'>World's Largest Medical Equipment Market Place</h1>
           </div>
 
           <div className="button">
             <button >My account</button>
-            <button style={{ marginLeft: "20px" }}>Contact Us</button>
+            <button style={{ marginLeft: "20px" }} >Contact Us</button>
           </div>
 
         </div>
 
-        <hr style={{ marginInline: "100px" }} className='text-gray-400' />
+        <hr style={{ marginInline: "100px" }} className='text-gray-400 max-sm:ml-5' />
 
 
         {/*------ Header Part------ */}
@@ -57,7 +57,7 @@ const Home = () => {
 
         {/*--Front Page--*/}
 
-        <div className="Front-Page px-23 mt-2 flex py-23 justify-between">
+        <div className="Front-Page px-23 mt-2 flex py-23 justify-between max-sm:px-0">
           <div className="reach-millions ">
             <h1 className='text-[24px] font-semibold'>Sell on 1mdm.com</h1>
             <p className='text-[42px] font-semibold w-150'>Reach millions of B2B buyers globally</p>
